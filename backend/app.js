@@ -31,7 +31,7 @@ app.use(bodyParser.json())
 //According to the https://expressjs.com/en/api.html, 
 //the first param always contain request (req), then response (res).
 //req before res
-app.get("/", (req, res) => { 
+app.get("/", (req, res) => {
     res.send('Hello World')
 })
 
